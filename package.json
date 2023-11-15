@@ -1,6 +1,9 @@
 {
   "name": "@bodal/pargv",
-  "author": "me@jensbodal.com",
+  "author": {
+    "name": "Jens Bodal",
+    "email": "npm@jensbodal.com"
+  },
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -14,7 +17,7 @@
     "test": "glob src/**/*.test.ts -c 'tsx --test'"
   },
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
     "@types/minimist": "^1.2.5",
